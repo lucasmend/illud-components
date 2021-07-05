@@ -1,0 +1,43 @@
+{
+  "name": "illud-components",
+  "version": "0.0.1",
+  "description": "Open components for future projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "next test",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "create-windows": "node ./utils/component-scoffolding.js %npm_config_component%",
+    "create": "node ./utils/component-scoffolding.js $npm_config_component",
+    "demo-windows": "echo \"Hello %npm_config_first% %npm_config_last%\"",
+    "demo": "echo \"Hello $npm_config_first $npm_config_last\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmend/illud-components.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "frontend",
+    "components",
+    "illud"
+  ],
+  "author": "Lucas Mendes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasmend/illud-components/issues"
+  },
+  "homepage": "https://github.com/lucasmend/illud-components#readme",
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-next": "^11.0.1"
+  }
+}
